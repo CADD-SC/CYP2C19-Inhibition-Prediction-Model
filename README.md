@@ -6,9 +6,9 @@ Machine learning-based prediction model for CYP2C19 inhibition prediction
 Welcome to our repository, here we provide machine learning model to efficiently predict the CYP2C19 inhibitionof target drug compounds in early stage of drug discovery process. CYP2C19 is another important member of the Cytochrome P450 enzyme family, playing a crucial role in the metabolism of several drugs, including proton pump inhibitors, antiepileptics, and certain antidepressants. Inhibition of CYP2C19 can significantly alter the pharmacokinetics of these medications, leading to increased risk of side effects and drug toxicity.
 
 ## Classification criteria ##
-The model uses an IC50 threshold:
+The model uses an IC<sub>50</sub> threshold:
 
-</strong> If <em>IC50</em> < 10 μM, the compound is <strong>Inhibitor</strong> and belongs to class 1. If <em>IC50</em> ≥ 10 μM, it is <strong>Not an Inhibitor</strong> and belongs to class 0.
+</strong> If <em>IC<sub>50</sub></em> < 10 μM, the compound is <strong>Inhibitor</strong> and belongs to class 1. If <em>IC<sub>50</sub></em> ≥ 10 μM, it is <strong>Not an Inhibitor</strong> and belongs to class 0.
 
 ## Dependencies ##
 
