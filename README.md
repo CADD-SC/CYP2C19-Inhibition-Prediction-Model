@@ -3,7 +3,7 @@ Machine learning-based prediction model for CYP2C19 inhibition prediction
 
 ## Introduction ## 
 
-Welcome to our repository, here we provide machine learning model to efficiently predict the CYP2C19 inhibitionof target drug compounds in early stage of drug discovery process. CYP2C19 is another important member of the Cytochrome P450 enzyme family, playing a crucial role in the metabolism of several drugs, including proton pump inhibitors, antiepileptics, and certain antidepressants. Inhibition of CYP2C19 can significantly alter the pharmacokinetics of these medications, leading to increased risk of side effects and drug toxicity.
+Welcome to our repository, here we provide machine learning model to efficiently predict the CYP2C19 inhibition of target drug compounds in early stage of drug discovery process. CYP2C19 is another important member of the Cytochrome P450 enzyme family, playing a crucial role in the metabolism of several drugs, including proton pump inhibitors, antiepileptics, and certain antidepressants. Inhibition of CYP2C19 can significantly alter the pharmacokinetics of these medications, leading to increased risk of side effects and drug toxicity.
 
 ## Classification criteria ##
 The model uses an IC<sub>50</sub> threshold:
