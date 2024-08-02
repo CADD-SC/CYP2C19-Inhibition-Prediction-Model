@@ -55,7 +55,7 @@ if __name__=="__main__":
 
         # load trained model
         # learner_model = pickle.load(open(f'./best_models_v2/{args.model_name}.pkl', 'rb'))
-        learner_model = pickle.load(open(f'.{args.model_name}.pkl', 'rb'))
+        learner_model = pickle.load(open(f'{args.model_name}.pkl', 'rb'))
         # predict label (int)
         predicted = learner_model.predict(scaled_data[features].values)
         tn, fp, fn, tp = confusion_matrix(scaled_data['bioclass'], predicted).ravel()
